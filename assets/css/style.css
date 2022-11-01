@@ -1,0 +1,183 @@
+@font-face {
+  font-family: Nunito-Bold;
+  src: url(../fonts/Nunito/static/Nunito-Bold.ttf);
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: RockSalt;
+  src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Nunito;
+  font-size: 62, 5%;
+}
+
+/* ==========================Header=============================== */
+
+h1 {
+  font-size: 1.5rem;
+  font-family: RockSalt;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.flexbox-header {
+  display: flex;
+}
+
+.div-header {
+  background-color: #df8480;
+  width: 50vw;
+  height: 90vh;
+}
+
+.img-header {
+  width: 50vw;
+  height: 90vh;
+  object-fit: cover;
+}
+
+h2 {
+  color: white;
+  font-family: Nunito-Bold;
+  font-size: 2.5rem;
+  text-align: right;
+  padding: 2rem;
+}
+
+/* ==========================Main=============================== */
+/* ========How it Works======= */
+
+h3 {
+  color: #df8480;
+  font-size: 3rem;
+  font-family: Nunito-Bold;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.flexbox-main {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.ordered-list {
+  color: #df8480;
+  font-size: 3rem;
+  font-family: Nunito-Bold;
+  text-align: center;
+  padding: 2rem;
+}
+
+.div-how-it-works {
+  font-family: Nunito-Bold;
+  width: 20%;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 5px 10px 10px rgb(190, 188, 188);
+  border-radius: 0.3rem;
+}
+
+/* ========Whats on the Menu?======= */
+
+.flexbox-menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.flexbox-menu img {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.menu-textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background-color: #df8480;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+/* ==========================Footer=============================== */
+
+footer {
+  background-color: #242424;
+  height: 50vh;
+  width: 100vw;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.div-signUp {
+  margin: 0 auto 5rem;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn1 {
+  background-color: white;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+  text-decoration: none;
+  text-align: center;
+  color: #868282;
+}
+
+.btn1:hover {
+  background-color: #df8480;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn2 {
+  background-color: #df8480;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: #868282;
+  transition: 0.2s;
+}
+
+.flexbox-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0rem 3rem 0;
+}
+
+.social-media {
+  display: flex;
+  gap: 1.5rem;
+}
